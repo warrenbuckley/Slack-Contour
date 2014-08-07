@@ -10,3 +10,4 @@ umbraco.config
 Slack.Contour.Web/bin/
 Slack.Contour/obj/
 packages/
+Slack.Contour/bin/

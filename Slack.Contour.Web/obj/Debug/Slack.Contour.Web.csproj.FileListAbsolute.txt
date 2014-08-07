@@ -78,3 +78,7 @@ C:\inetpub\wwwroot\Slack.Contour\Slack.Contour.Web\bin\umbraco.providers.xml
 C:\inetpub\wwwroot\Slack.Contour\Slack.Contour.Web\obj\Debug\Slack.Contour.Web.csprojResolveAssemblyReference.cache
 C:\inetpub\wwwroot\Slack.Contour\Slack.Contour.Web\obj\Debug\Slack.Contour.Web.dll
 C:\inetpub\wwwroot\Slack.Contour\Slack.Contour.Web\obj\Debug\Slack.Contour.Web.pdb
+C:\inetpub\wwwroot\Slack.Contour\Slack.Contour.Web\bin\Slack.Contour.dll
+C:\inetpub\wwwroot\Slack.Contour\Slack.Contour.Web\bin\Umbraco.Forms.Core.dll
+C:\inetpub\wwwroot\Slack.Contour\Slack.Contour.Web\bin\Umbraco.Licensing.dll
+C:\inetpub\wwwroot\Slack.Contour\Slack.Contour.Web\bin\Slack.Contour.pdb
