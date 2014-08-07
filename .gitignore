@@ -7,3 +7,6 @@ ExamineIndexes/
 
 # Ignore Umbraco content cache file
 umbraco.config
+Slack.Contour.Web/bin/
+Slack.Contour/obj/
+packages/
