@@ -22,9 +22,6 @@ namespace Slack.Contour
         [Setting("Avatar URL", description = "The full url including http to the avatar image", control = "Umbraco.Forms.Core.FieldSetting.TextField")]
         public string AvatarUrl { get; set; }
 
-        [Setting("Fields", description = "Map the needed fields", control = "Umbraco.Forms.Core.FieldSetting.FieldMapper")]
-        public string Fields { get; set; }
-
 
         public SlackContourWorkflow()
         {
@@ -36,7 +33,17 @@ namespace Slack.Contour
 
         public override WorkflowExecutionStatus Execute(Record record, RecordEventArgs e)
         {
-            var message = string.Empty;
+            //Tokenise message with values in form
+            var message = string.Format("Someone has posted the form '{0}' at {1}{2}", e.Form.Name, record.Created.ToString("dd/MM/yy @ HH:mm:ss"), Environment.NewLine);
+            
+            //Loop over fields & add to our message
+
+
+            //Ensure Channel starts with #
+            if (!Channel.StartsWith("#"))
+            {
+                Channel = string.Format("#{0}", Channel);
+            }
 
 
             using (var client = new WebClient())
