@@ -1,0 +1,11 @@
+﻿ <div ng-controller="Contour.FormPickerController">
+     
+     <div class="radio" ng-repeat="form in forms">
+         <label>
+             <input ng-model="model.value" value="{{form.Id}}" type="radio" name="form">
+             {{form.Name}}
+             <small>{{form.Fields}}</small>
+         </label>
+     </div>
+
+ </div>

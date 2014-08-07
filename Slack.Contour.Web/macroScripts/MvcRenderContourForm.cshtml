@@ -1,0 +1,10 @@
+﻿@inherits umbraco.MacroEngines.DynamicNodeContext
+@using Umbraco.Forms.Mvc.Bridge.Html;
+@{
+    string action = "ContourForm";
+    string controller = "FormRender";
+    string formtoken = "UmbracoContourForm";
+    string formGuid = Parameter.FormGuid;
+    
+    @Html.RenderMvcAction(action, controller, formGuid, formtoken, (umbraco.MacroEngines.DynamicNode)Model, (System.Dynamic.DynamicObject)Parameter);
+}

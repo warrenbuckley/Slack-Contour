@@ -1,0 +1,16 @@
+﻿{
+    propertyEditors: [
+        {
+                alias: "FormPicker",
+                name: "Form Picker",
+				isParameterEditor: true,
+                editor: {
+                view: "~/App_Plugins/Contour/formpicker.html"
+                }
+        }
+    ]
+    ,
+    javascript: [
+        '~/App_Plugins/Contour/formpicker.controller.js'
+    ]
+}
