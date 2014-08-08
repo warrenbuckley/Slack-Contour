@@ -37,6 +37,16 @@ namespace Slack.Contour
             var message = string.Format("Someone has posted the form '{0}' at {1}{2}", e.Form.Name, record.Created.ToString("dd/MM/yy @ HH:mm:ss"), Environment.NewLine);
             
             //Loop over fields & add to our message
+            foreach (var field in record.RecordFields)
+            {
+                //Record field item
+                var fieldItem   = field.Value;
+                var fieldName   = fieldItem.Field.Caption;
+                var fieldValue  = fieldItem.ValuesAsString();
+
+                //Add the field name & value to the message string
+                message += string.Format("{0}: {1}{2}", fieldName, fieldValue, Environment.NewLine);
+            }
 
 
             //Ensure Channel starts with #
