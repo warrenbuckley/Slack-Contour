@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>Slack.Contour</id>
+        <version>0.0.0</version>
+        <title>Slack Contour</title>
+        <authors>Warren Buckley</authors>
+        <owners>Warren Buckley</owners>
+        <projectUrl>https://github.com/warrenbuckley/Slack-Contour</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>An Umbraco Contour workflow item that allows you to post the form data to a Slack Chat Channel</description>
+        <summary>An Umbraco Contour workflow item that allows you to post the form data to a Slack Chat Channel</summary>
+        <copyright>Warren Buckley</copyright>
+        <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+        <language>en-GB</language>
+        <tags>umbraco,contour</tags>
+        <dependencies>
+          <dependency id="UmbracoCms.Core" version="7.1.4" />
+        </dependencies>
+    </metadata>    
+</package>
