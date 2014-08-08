@@ -18,7 +18,7 @@
     <BaseVersionPatch>0</BaseVersionPatch>
     <!-- include hyphen in the suffix e.g "-beta" -->
     <BaseVersionSuffix></BaseVersionSuffix>
-    <BaseUmbracoVersion></BaseUmbracoVersion>
+    <BaseUmbracoVersion>7.1.4</BaseUmbracoVersion>
   </PropertyGroup>
 
   <!-- PROPERTIES -->
