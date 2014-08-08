@@ -13,7 +13,7 @@
         <copyright>Warren Buckley</copyright>
         <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
         <language>en-GB</language>
-        <tags>umbraco,contour</tags>
+        <tags>umbraco,contour,slack</tags>
         <dependencies>
           <dependency id="UmbracoCms.Core" version="7.1.4" />
         </dependencies>
