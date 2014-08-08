@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<umbPackage>
+	<info>
+		<package>
+			<name>Slack Contour</name>
+			<version>0.0.0</version>
+      <license url="http://opensource.org/licenses/MIT">MIT License</license>
+			<url>https://github.com/warrenbuckley/Slack-Contour</url>
+			<requirements>
+				<major>0</major>
+				<minor>0</minor>
+				<patch>0</patch>
+			</requirements>
+		</package>
+		<author>
+      <name>Warren Buckley</name>
+      <website>http://creativewebspecialist.co.uk</website>
+		</author>
+		<readme>
+      <![CDATA[An Umbraco Contour workflow item that allows you to post the form data to a Slack Chat Channel]]>
+    </readme>
+	</info>
+
+	<DocumentTypes />
+	<Templates />
+	<Stylesheets />
+	<Macros />
+	<DictionaryItems />
+	<Languages />
+	<DataTypes />
+
+  <Actions/>
+  
+	<control />
+
+	<files />
+
+</umbPackage>
