@@ -9,6 +9,14 @@ ExamineIndexes/
 umbraco.config
 
 Slack.Contour.Web/bin/
+Slack.Contour.Web/obj/
 Slack.Contour/obj/
 packages/
 Slack.Contour/bin/
+
+BuildPackage/Package/*
+
+# User-specific files
+*.suo
+*.user
+*.sln.docstates
